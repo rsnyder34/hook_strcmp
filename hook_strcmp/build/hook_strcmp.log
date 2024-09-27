@@ -1,0 +1,9 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(516,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  hook.cpp
+  main.cpp
+D:\code\hacking\hook_strcmp\src\hook.cpp(25,22): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+D:\code\hacking\hook_strcmp\src\hook.cpp(25,22): warning C4309: 'initializing': truncation of constant value
+  Generating Code...
+D:\code\hacking\hook_strcmp\src\hook.cpp(36,1): warning C4715: 'Hook32': not all control paths return a value
+  hook_strcmp.vcxproj -> D:\code\hacking\hook_strcmp\build\hook_strcmp.dll
