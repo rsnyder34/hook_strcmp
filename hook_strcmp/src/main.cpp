@@ -72,7 +72,7 @@ int __stdcall MainThread(HMODULE hMod)
 	fclose(f);
 	FreeConsole();
 	//After seeing the password, we can return everything back to normal to solve the problem.
-	//Edit_Memory(old_bytes, (char*)lstrcmpA_address, sizeof(old_bytes));
+	Edit_Memory(old_bytes, (char*)lstrcmpA_address, sizeof(old_bytes));
 
 	FreeLibraryAndExitThread(hMod, 0);
 	return 0;
